@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MP3 Player</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="music">
+      <div class="music-next-song">
+        <span>Next - </span>
+        <span>---</span>
+      </div>
+      <div class="music-thumb">
+        <img
+          src="https://media.istockphoto.com/photos/black-and-white-photo-of-man-playing-guitar-picture-id178628010?b=1&k=20&m=178628010&s=170667a&w=0&h=57s8DuvYFfDEo93JDUtfw8y3skJVsnsZYULerlgx_vw="
+          alt="Music image"
+        />
+      </div>
+      <h3 class="music-name">----</h3>
+      <p class="music-artist">---</p>
+      <input type="range" name="range" class="range" />
+      <audio src="./musics/Want Me.mp3" id="song"></audio>
+      <div class="timer">
+        <div class="duration">00:00</div>
+        <div class="remaining">-00:00</div>
+      </div>
+      <div class="controls">
+        <ion-icon name="infinite" class="icon play-infinite"></ion-icon>
+        <ion-icon name="play-back" class="icon play-back"></ion-icon>
+        <div class="play">
+          <div class="player-inner">
+            <ion-icon name="play" class="icon play-icon"></ion-icon>
+          </div>
+        </div>
+        <ion-icon name="play-forward" class="icon play-forward"></ion-icon>
+        <ion-icon name="repeat" class="icon play-repeat"></ion-icon>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

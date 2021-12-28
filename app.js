@@ -13,15 +13,13 @@ const playIcon = document.querySelector('.play-icon');
 const durationTime = document.querySelector('.duration');
 const remainingTime = document.querySelector('.remaining');
 
+const musicsApi = 'https://mocki.io/v1/ae5bc854-785d-4a30-9f89-9bd2af61bd14';
+
 let isRepeat = false;
 let repeatCount = 0;
 let isRepeatInfinite = false;
 
 let indexSong = 0;
-
-fetch('https://mocki.io/v1/ae5bc854-785d-4a30-9f89-9bd2af61bd14')
-  .then((res) => res.json())
-  .then((musics) => app(musics));
 
 function app(musics) {
   displayTimer();
@@ -181,4 +179,12 @@ function app(musics) {
 
   displayTimer();
   init();
+}
+
+getMusics(app);
+
+function getMusics(callback) {
+  fetch(musicsApi)
+    .then((res) => res.json())
+    .then(callback);
 }

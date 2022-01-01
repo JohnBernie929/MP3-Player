@@ -32,12 +32,12 @@ img {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 20px;
 }
 
 .playing {
-  animation: spinner 3s infinite linear;
+  animation: spinner 4s infinite linear;
 }
 
 .music {

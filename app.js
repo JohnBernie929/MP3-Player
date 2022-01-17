@@ -30,6 +30,9 @@ function getMusics(callback) {
 }
 
 function app(musics) {
+  // Sort random music
+  musics.sort(() => Math.random() - 0.5)
+
   displayTimer()
   let timer = setInterval(displayTimer, 500)
   // Config controller btn
@@ -187,4 +190,19 @@ function app(musics) {
 
   displayTimer()
   init()
+
+  // Keymap
+  window.addEventListener('keyup', (e) => {
+    if (e.key === ' ') {
+      playPause()
+    }
+    if (e.key === 'ArrowRight') {
+      changeSong(1)
+      displayTimer()
+    }
+    if (e.key === 'ArrowLeft') {
+      changeSong(-1)
+      displayTimer()
+    }
+  })
 }

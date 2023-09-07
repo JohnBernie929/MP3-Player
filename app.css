@@ -132,18 +132,21 @@ body {
 .range {
   cursor: pointer;
   -webkit-appearance: none;
+  appearance: none;
   width: 100%;
   background: transparent;
   margin-bottom: 20px;
 }
 .range::-webkit-slider-runnable-track {
   -webkit-appearance: none;
+  appearance: none;
   width: 100%;
   height: 4px;
   background: #eeee;
 }
 .range::-webkit-slider-thumb {
   -webkit-appearance: none;
+  appearance: none;
   width: 15px;
   height: 15px;
   margin-top: -5px;

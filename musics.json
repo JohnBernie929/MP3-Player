@@ -1,35 +1,14 @@
 [
   {
-    "file": "https://www.mboxdrive.com/first%20Date.mp3",
-    "image": "https://i.pinimg.com/736x/be/07/4a/be074ac7e84dcbd82c5fb889a9fc18cf.jpg",
-    "name": "First Date"
+    "file": "./assets/musics/31072.mp3",
+    "image": "./assets/imgs/artworks-WKgxR7C5yYavTzgH-PoIbEA-t500x500.jpg",
+    "name": "3107-2 (Lofi Ver)",
+    "artist": "DuongG x Nâu x W/n x Freak D"
   },
   {
-    "file": "https://www.mboxdrive.com/Harehare%20Ya.mp3",
-    "name": "Harehare Ya"
-  },
-  {
-    "file": "https://www.mboxdrive.com/Want%20Me.mp3",
-    "image": "https://images.unsplash.com/photo-1450044804117-534ccd6e6a3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
-    "name": "Want Me",
-    "artist": "Mike Archangelo"
-  },
-  {
-    "file": "https://www.mboxdrive.com/C%C6%B0%E1%BB%9Bi%20Th%C3%B4i%20-%20Masiu%20x%20Masew.mp3",
-    "image": "https://images.genius.com/823b2284b4eea50756c1a6c2943e29b6.300x300x1.jpg",
-    "name": "Cưới Thôi",
-    "artist": "Masiu x Masew"
-  },
-  {
-    "file": "https://tainhac123.com/listen/de-vuong-dinh-dung-ft-acv.w8lmuII1Yn2G.html",
-    "image": "https://avatar-nct.nixcdn.com/song/2021/11/29/a/9/5/0/1638180197658.jpg",
-    "name": "Đế Vương",
-    "artist": "Đình Dũng"
-  },
-  {
-    "file": "https://www.mboxdrive.com/%E5%BE%90%E6%A2%A6%E5%9C%86%20%20ChinaFuture%20.mp3",
-    "image": "https://cf.shopee.vn/file/8756a21ac70ffc57831d237c30a92177",
-    "name": "China Future",
-    "artist": "徐梦圆"
+    "file": "./assets/musics/Anamanaguchi.mp3",
+    "image": "./assets/imgs/hatsune-miku-la-ai-co-ca-si-ao-tai-nhat-ban-co-luong-fan-khung.jpg",
+    "name": "Anamanaguchi",
+    "artist": "Miku feat. Hatsune Miku"
   }
 ]

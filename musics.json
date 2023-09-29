@@ -10,5 +10,11 @@
     "image": "./assets/imgs/hatsune-miku-la-ai-co-ca-si-ao-tai-nhat-ban-co-luong-fan-khung.jpg",
     "name": "Anamanaguchi",
     "artist": "Miku feat. Hatsune Miku"
+  },
+  {
+    "file": "./assets/musics/id-072019.mp3",
+    "image": "./assets/imgs/1690808322047_640.jpg",
+    "name": "ID-072019",
+    "artist": "W/n"
   }
 ]
